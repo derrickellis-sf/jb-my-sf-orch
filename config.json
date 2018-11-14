@@ -15,7 +15,7 @@
 		"execute": {
 			"inArguments": [{
 				"myInArgument": "inArgument coming from iframe",
-        "emailAddress": "{{Contact.Attribute.PostcardJourney.EmailAddress}}"
+        "emailAddress": "{{Contact.Attribute.PostcardJourney.EmailAddress}}"  // PostcardJourney = Entry Audience
 			}],
 			"outArguments": [],
 			"url": "https://jb-orchestration.herokuapp.com/"
